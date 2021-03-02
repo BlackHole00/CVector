@@ -60,3 +60,5 @@ void free_vector(Vector*);
 }
 
 #define vector_data(vect, type) ((type*)vect.vector)
+
+#define vector_ptr_data(vect, type) ((type*)vect->vector)
